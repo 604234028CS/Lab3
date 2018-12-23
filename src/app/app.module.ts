@@ -1,3 +1,6 @@
+import { ThirdPage } from './../pages/third/third';
+import { SecondPage } from './../pages/second/second';
+import { FirstPage } from './../pages/first/first';
 import { NgModule, ErrorHandler } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { IonicApp, IonicModule, IonicErrorHandler } from 'ionic-angular';
@@ -17,7 +20,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    FirstPage,
+    SecondPage,
+    ThirdPage
   ],
   imports: [
     BrowserModule,
@@ -29,7 +35,10 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     AboutPage,
     ContactPage,
     HomePage,
-    TabsPage
+    TabsPage,
+    FirstPage,
+    SecondPage,
+    ThirdPage
   ],
   providers: [
     StatusBar,
